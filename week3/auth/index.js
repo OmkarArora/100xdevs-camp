@@ -3,9 +3,7 @@ const jwt = require("jsonwebtoken");
 
 const mongoose = require("mongoose");
 
-mongoose.connect(
-	"mongodb+srv://omkar:hlkARym02L0AwKry@cluster0.3rjzbxr.mongodb.net/userApp"
-);
+mongoose.connect("url");
 
 const User = mongoose.model("Users", {
 	name: String,
